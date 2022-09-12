@@ -1,6 +1,10 @@
 import React, { FC } from "react";
-import "./classes/car";
+import { Button } from "./components/Button";
 
 export const App: FC = () => {
-  return <></>;
+  return (
+    <>
+      <Button />
+    </>
+  );
 };
