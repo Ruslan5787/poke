@@ -1,7 +1,7 @@
 import React from "react";
 
 export const Button = () => {
-  const n = 12;
+  const m = "abs";
 
   return <div>Кнопка</div>;
 };
