@@ -1,0 +1,68 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e2f4fb;
+  font-family: Roboto, sans-serif;
+}
+
+input {
+  font-size: 17px;
+  font-family: Roboto, sans-serif;
+  display: block;
+  margin-bottom: 15px;
+  width: 350px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  padding: 15px 15px;
+  outline: none;
+}
+input::placeholder {
+  color: #ccc;
+  font-size: 17px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  display: block;
+  margin: 0 auto;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  background-color: bisque;
+  cursor: pointer;
+}
+
+li {
+  margin-bottom: 10px;
+  background-color: lightyellow;
+  padding: 10px;
+  border-radius: 10px;
+  list-style-type: none;
+}
+
+.wrapper {
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.block {
+  width: 300px;
+  height: 400px;
+  background-color: darkslategray;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.notification-error {
+  color: rgba(0, 101, 152, 0.55);
+}
+
+/*# sourceMappingURL=style.css.map */
