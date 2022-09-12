@@ -1,5 +1,7 @@
 import React from "react";
 
 export const Button = () => {
-  return <div></div>;
+  const n = 12;
+
+  return <div>Кнопка</div>;
 };
